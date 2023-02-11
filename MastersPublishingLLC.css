@@ -56,7 +56,7 @@ makes sure that the dimensions of elements remains the same regardless of border
       margin: auto;
       line-height: 4em;
       /*background-color: #466995;*/
-      background-image: url("../../WebDesign/MastersPublishingLLC/Resources/Images/Artboard\ Header.png");
+      background-image: url("../../GitHub/CDMMPLLC.github.io/Resources/Images/Artboard\ Header.png");
       color: white;
       text-shadow: 2px 2px 0 #24226b;
       width: 90%;
@@ -73,7 +73,7 @@ makes sure that the dimensions of elements remains the same regardless of border
     .logo {
       height: 100px;
       width: 100px;
-      background-image: url("../../WebDesign/MastersPublishingLLC/Resources/Images/Trademark.JPG");
+      background-image: url("../../GitHub/CDMMPLLC.github.io/Resources/Images/Trademark.JPG");
       background-size: contain;
       background-repeat: no-repeat;
       display: inline-block;
@@ -234,7 +234,7 @@ makes sure that the dimensions of elements remains the same regardless of border
   
     @media only screen and (max-width: 680px) and (min-resolution:100dpi) {
       .page-title{
-        background-image: url("../../WebDesign/MastersPublishingLLC/Resources/Images/Artboard\ Header.png");
+        background-image: url("../../GitHub/CDMMPLLC.github.io/Resources/Images/Artboard\ Header.png");
         max-height: 400px;
         width: 100%;
         padding-left: 1.75rem;   
