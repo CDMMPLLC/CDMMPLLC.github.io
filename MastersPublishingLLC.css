@@ -273,7 +273,7 @@ makes sure that the dimensions of elements remains the same regardless of border
     }*/
 
     /* Portrait and Landscape for iPhone 13 and 13 Pro Max*/
-    @media only screen and (min-device-width: 428px) and (max-device-width: 926px){ 
+    @media only screen and (min-width: 428px) and (max-width: 926px){ 
       .page-title{
         background-image: url("./Resources/Images/Header.png");
         max-height: 400px;
@@ -284,12 +284,13 @@ makes sure that the dimensions of elements remains the same regardless of border
       }
     }
 
-    @media only screen and (min-device-width: 390px) and (max-device-width: 844px) { 
+    @media only screen and (min-width: 390px) and (max-width: 844px) { 
       .page-title h1{
         color: white;
         text-shadow: 2px 2px 0 #24226b;
       }|
-  
+    }
+      
   /*
     li {
       text-transform: uppercase;
