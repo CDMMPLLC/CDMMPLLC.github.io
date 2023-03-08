@@ -57,6 +57,7 @@ makes sure that the dimensions of elements remains the same regardless of border
       line-height: 4em;
       /*background-color: #466995;*/
       background-image: url("GitHub/CDMMPLLC.github.io/Resources/Images/Header.png");
+      /*background-image: url(../../GitHub/CDMPLLC.github.io/Resources/Images/Header.png");*/
       color: white;
       text-shadow: 2px 2px 0 #24226b;
       width: 90%;
