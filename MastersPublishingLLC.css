@@ -272,8 +272,8 @@ makes sure that the dimensions of elements remains the same regardless of border
       }
     }*/
 
-    /* Portrait and Landscape */
-    @media only screen and (min-device-width: 390px) and (max-device-width: 844px){ 
+    /* Portrait and Landscape for iPhone 13 and 13 Pro Max*/
+    @media only screen and (min-device-width: 428px) and (max-device-width: 926px){ 
       .page-title{
         background-image: url("./Resources/Images/Header.png");
         max-height: 400px;
