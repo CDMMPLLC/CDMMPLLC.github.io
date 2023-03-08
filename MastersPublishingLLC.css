@@ -33,7 +33,7 @@ makes sure that the dimensions of elements remains the same regardless of border
       font-size: 18px;
       line-height: 1.4em;
       color: white;
-      background-color:white;
+      background-color:#ffffff;
       padding-left: 0.75rem;
       padding-right: 0.75rem;
     }
@@ -123,7 +123,7 @@ makes sure that the dimensions of elements remains the same regardless of border
     }
   
     .menu nav li:hover {
-      background-color: #24226b;
+      background-color: #60B3BD;
      }
   
   
@@ -171,7 +171,7 @@ makes sure that the dimensions of elements remains the same regardless of border
       transition-property:
       background-color;
       transition-duration: 750ms;
-      background-color: #466995;
+      background-color: #60B3BD;
     }
     
   /* About Us */
@@ -224,6 +224,11 @@ makes sure that the dimensions of elements remains the same regardless of border
   
   /* Footer */
     
+  .terms {
+    color:black;
+    display:block;
+  }
+  
   .footer {
     color: black;
     display: block;
