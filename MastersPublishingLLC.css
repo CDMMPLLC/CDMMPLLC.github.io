@@ -239,7 +239,7 @@ makes sure that the dimensions of elements remains the same regardless of border
   
     @media only screen and (max-width: 680px) and (min-resolution:100dpi) {
       .page-title{
-        background-image: url("../../GitHub/CDMMPLLC.github.io/Resources/Images/Artboard\ Header.png");
+        background-image: url("./Resources/Images/Header.png");
         max-height: 400px;
         width: 100%;
         padding-left: 1.75rem;   
@@ -257,7 +257,7 @@ makes sure that the dimensions of elements remains the same regardless of border
       }
     }
   
-    @media only screen and (max-width: 500px) {
+    /*@media only screen and (max-width: 500px) {
       .menu nav li {
         font-size: 13px;  
         display: grid;
@@ -270,7 +270,25 @@ makes sure that the dimensions of elements remains the same regardless of border
         color: white;
         text-shadow: 2px 2px 0 #24226b;
       }
+    }*/
+
+    /* Portrait and Landscape */
+    @media only screen and (min-device-width: 390px) and (max-device-width: 844px){ 
+      .page-title{
+        background-image: url("./Resources/Images/Header.png");
+        max-height: 400px;
+        width: 100%;
+        padding-left: 1.75rem;   
+        margin: auto;
+        line-height: 2em;
+      }
     }
+
+    @media only screen and (min-device-width: 390px) and (max-device-width: 844px) { 
+      .page-title h1{
+        color: white;
+        text-shadow: 2px 2px 0 #24226b;
+      }|
   
   /*
     li {
