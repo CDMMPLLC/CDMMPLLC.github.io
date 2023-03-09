@@ -33,32 +33,24 @@ makes sure that the dimensions of elements remains the same regardless of border
       font-size: 18px;
       line-height: 1.4em;
       color: white;
-      background-color:#ffffff;
+      background-color:white;
       padding-left: 0.75rem;
       padding-right: 0.75rem;
+      padding-top: 0.75rem;
     }
   
-    /*
-    body {
-      background-image: url();
-      height: 100%;
-      background-attachment: fixed;
-      background-size: cover;
-    }
-    */
-  
-  
+ 
     /* Title and Description */
-  
      
     .page-title {
       text-align: center;
       margin: auto;
-      line-height: 4em;
+      line-height: 6em;
       /*background-color: #466995;*/
       background-image: url("./Resources/Images/Header.png");
-      color: white;
-      text-shadow: 2px 2px 0 #24226b;
+      /*background-size: cover;*/
+      color: rgb(251,196,75);
+      text-shadow: 2px 2px 0 black;
       width: 90%;
       height: 100%;
       padding-left: 1.75rem;
@@ -83,8 +75,8 @@ makes sure that the dimensions of elements remains the same regardless of border
   
     .page-title h1 {
       display: inline-block;
-      color: #466995;
-      text-shadow: 2px 2px 0 whitesmoke;
+      color: rgb(251,196,75);
+      text-shadow: 2px 2px 0 black;
     }
   
   
@@ -97,24 +89,24 @@ makes sure that the dimensions of elements remains the same regardless of border
       animation-duration: 0s;
       animation-direction: normal;
       background-attachment: scroll;
-      text-align: right;
-      padding-top: 10px;
+      text-align: center;
+      /*background-color: rgb(201,188,169);*/
     }
     
     .menu nav ul {
       display: block;
-    }
+      }
   
     .menu nav li {
      display: inline;
-     margin: 0 20px 0 0;
+     margin: 0 25px 0 0;
      color: white;
      transition-property:
       background-color;
       transition-duration: 750ms;
-     background-color: #466995;
+     background-color: rgb(111,133,173);
      line-height: 60px;
-     border: 1px solid black;
+     border: 1px solid rgb(111,133,173);
      padding: 7px;
      border-radius: 4px;
      text-decoration: none;
@@ -123,28 +115,32 @@ makes sure that the dimensions of elements remains the same regardless of border
     }
   
     .menu nav li:hover {
-      background-color: #60B3BD;
+      /*background-color: rgb(201,188,169);*/
+      opacity: 0.75;
      }
   
   
     /* Books */
   
     .books-title {
-      color: black;
-    }
+      color: #1F1F1F;
+      background-color: rgb(201,188,169);
+      padding: 15px;
+     }
     
     .books {
+      background-color: rgb(201,188,169);
       color: black;
       display: inline-flex;
       flex-wrap: wrap;
       justify-content: space-around;
-      margin-top: 5px;
-      
+      margin-top: 0px;
+      text-align: center;
       }
   
    
     .books-item { 
-      margin: 20px;
+      margin: 18.25px;
     }
   
     .books-item .thumbnail {
@@ -171,19 +167,38 @@ makes sure that the dimensions of elements remains the same regardless of border
       transition-property:
       background-color;
       transition-duration: 750ms;
-      background-color: #60B3BD;
+      background-color: rgb(111,133,173);
     }
     
   /* About Us */
   
   .aboutUs {
-    color: black;
+    color: #1F1F1F;
+    background-color: rgb(111,133,173);
+    padding: 15px;
+    margin-top:25px;
+  }
+
+  .aboutUs h3 {
+    margin: 25px;
+  }
+
+  .aboutUs p {
+    margin:25px;
+    padding: 5px;
   }
   
   /* Awards & Recognitions */
   
   .awards-title {
-    color:black;
+    color:#1F1F1F;
+    margin: 0px;
+    background-color: rgb(251,196,75);
+    /*padding: 15px;*/
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 15px;
   }
   
   
@@ -192,11 +207,12 @@ makes sure that the dimensions of elements remains the same regardless of border
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 5px;
+    background-color: rgb(251,196,75);
+    padding: 25px;
   }
   
   .awards-item { 
-    margin: 20px;
+    margin: 25px;
   }
   
   .awards-item .thumbnail {
@@ -205,28 +221,44 @@ makes sure that the dimensions of elements remains the same regardless of border
     height: 125px;
     overflow: hidden;
     display: block;
-    border: 2px solid white;
+    /*border: 2px solid white;*/
     border-radius: 4px;
   }
-  
+
   .awards p a:hover {
-    background-color: #466995;
+    background-color: rgb(111,133,173);
   }
   
-  
-  
-  
+    
   /* Contact */
   
   .contact {
-    color: black;
+    color: #1F1F1F;
+    background-color: rgb(201,188,169);
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  
+  .contact u {
+    padding: 25px;
+  }
+
+  .contact p {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .contact a {
+    padding: 25px;
   }
   
   /* Footer */
     
   .terms {
-    color:black;
+    color:#1F1F1F;
     display:block;
+    margin: 15px;
+    font-size: 0.75rem;
   }
   
   .footer {
@@ -250,8 +282,8 @@ makes sure that the dimensions of elements remains the same regardless of border
   
     @media only screen and (max-width: 680px) and (min-resolution:100dpi) {
       .page-title h1{
-        color: white;
-        text-shadow: 2px 2px 0 #24226b;
+        color: rgb(251,196,75);
+        text-shadow: 2px 2px 0 black;
         /*padding-left: 1.75rem;*/
         
       }
@@ -286,8 +318,8 @@ makes sure that the dimensions of elements remains the same regardless of border
 
     @media only screen and (min-width: 390px) and (max-width: 844px) { 
       .page-title h1{
-        color: white;
-        text-shadow: 2px 2px 0 #24226b;
+        color: rgb(251,196,75);
+        text-shadow: 2px 2px 0 black;
       }|
     }
       
@@ -327,7 +359,7 @@ makes sure that the dimensions of elements remains the same regardless of border
     */
   
     footer {
-      background-color: #466995;
+      background-color: rgb(111,133,173);
       text-align: center;
       height: 25px;
       font-size: 0.75rem;
@@ -338,4 +370,6 @@ makes sure that the dimensions of elements remains the same regardless of border
   BY ADA (Web Content Accessibility Guidelines)...ARIA, or Accessible Rich Internet Applications*/
   
   /*https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats*/
-  
+
+  /*NOTES*/
+  /*https://color.adobe.com/create/color-wheel*/
